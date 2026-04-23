@@ -193,7 +193,8 @@ pub use autovector_v11 as c004_a086;
 pub mod there_v3;
 pub use there_v3 as c004_a087;
 
-// c004_a088
+pub mod autovector_v12;
+pub use autovector_v12 as c004_a088;
 
 // c004_a089
 
