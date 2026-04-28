@@ -1,4 +1,5 @@
 pub mod lion_v1;
+pub mod lion_v2;
 pub mod neural_alchemist;
 pub use neural_alchemist as c006_a001;
 
