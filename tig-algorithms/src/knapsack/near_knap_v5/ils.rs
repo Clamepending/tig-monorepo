@@ -1535,17 +1535,14 @@ pub fn run_one_instance(challenge: &Challenge, params: &Params) -> Solution {
     let mut stall_div = 0usize;
     let mut max_rounds = params.n_perturbation_rounds;
 
+    // v5: keep the small-instance bonus but remove the upper caps so
+    // params.n_perturbation_rounds can drive longer exploration. v4's caps
+    // were tuned for a much smaller fuel budget; with TIG mainnet's 5e12
+    // fuel we have room to run more rounds.
     if n <= 600 && hard {
         max_rounds = max_rounds.saturating_add(3);
     }
-
-    if n >= 4500 {
-        max_rounds = max_rounds.min(if hard { 13 } else { 12 });
-    } else if n >= 3000 {
-        max_rounds = max_rounds.min(if hard { 15 } else { 14 });
-    } else if n >= 2000 {
-        max_rounds = max_rounds.min(16);
-    }
+    // (no upper caps on max_rounds in v5)
 
     let mut dp_next_int = true;
 
