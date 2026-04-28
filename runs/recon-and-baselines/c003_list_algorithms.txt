@@ -1,0 +1,128 @@
+id: c003_a001    name: dynamic              status: merged @ round 25
+id: c003_a002    name: greedy               status: active with 0 merge points
+id: c003_a003    name: branch_and_bound     status: active with 0 merge points
+id: c003_a004    name: genetic              status: failed to compile
+id: c003_a005    name: genetic              status: active with 0 merge points
+id: c003_a006    name: tabu_search          status: active with 0 merge points
+id: c003_a007    name: knapmaxxing          status: merged @ round 28
+id: c003_a008    name: better_in_twos       status: active with 0 merge points
+id: c003_a009    name: tinhat_pete          status: active with 0 merge points
+id: c003_a010    name: knapsplorify         status: active with 0 merge points
+id: c003_a011    name: dual_descent         status: active with 0 merge points
+id: c003_a012    name: ironhat_pete         status: active with 0 merge points
+id: c003_a013    name: flat_dp              status: active with 0 merge points
+id: c003_a014    name: filter_knapmaxxing   status: active with 0 merge points
+id: c003_a015    name: better_knapp         status: active with 0 merge points
+id: c003_a016    name: better_knapm         status: active with 0 merge points
+id: c003_a017    name: optimised_knapmax    status: active with 0 merge points
+id: c003_a018    name: overlodes_sack       status: active with 0 merge points
+id: c003_a019    name: knapheudp            status: merged @ round 36
+id: c003_a020    name: knapsack_para        status: failed to compile
+id: c003_a021    name: over_knapmaxxed      status: active with 0 merge points
+id: c003_a022    name: needaknap            status: active with 0 merge points
+id: c003_a023    name: sack_o_potatoes      status: active with 0 merge points
+id: c003_a024    name: fast_knapsack        status: failed to compile
+id: c003_a025    name: lightning_knapsack   status: active with 0 merge points
+id: c003_a026    name: neural_knapsack      status: failed to compile
+id: c003_a027    name: quantum_knapsack     status: active with 0 merge points
+id: c003_a028    name: ultra_fast_knapsack  status: active with 0 merge points
+id: c003_a029    name: sackophone           status: active with 0 merge points
+id: c003_a030    name: knap_zilla           status: active with 0 merge points
+id: c003_a031    name: knap_suck            status: banned
+id: c003_a032    name: quick_knap           status: active with 0 merge points
+id: c003_a033    name: optimism_dollop      status: active with 0 merge points
+id: c003_a034    name: optimized_aa         status: active with 0 merge points
+id: c003_a035    name: knap_super_bb        status: active with 0 merge points
+id: c003_a036    name: bounded_greedy_dp    status: failed to compile
+id: c003_a037    name: hybrid_greedy_dp     status: active with 0 merge points
+id: c003_a038    name: bounded_greedy_dp    status: active with 0 merge points
+id: c003_a039    name: greedy_backtrack     status: active with 0 merge points
+id: c003_a040    name: hybrid_greedy_dp_ct  status: active with 0 merge points
+id: c003_a041    name: knap_crap            status: failed to compile
+id: c003_a042    name: just_good_knapsack   status: active with 0 merge points
+id: c003_a043    name: quad_quick           status: active with 0 merge points
+id: c003_a044    name: qknap_optimize       status: active with 0 merge points
+id: c003_a045    name: knap_suckq           status: banned
+id: c003_a046    name: knap_crapq           status: banned
+id: c003_a047    name: knap_sim_anal        status: banned
+id: c003_a048    name: quadratic_greedy     status: active with 0 merge points
+id: c003_a049    name: qkp_fast             status: failed to compile
+id: c003_a050    name: qkp_heuristics       status: failed to compile
+id: c003_a051    name: classic_quadkp       status: merged @ round 46
+id: c003_a052    name: ultra_quadkp         status: active with 0 merge points
+id: c003_a053    name: greedy_quadkp        status: active with 0 merge points
+id: c003_a054    name: quadkp_improved      status: merged @ round 47
+id: c003_a055    name: knap_heuristics      status: failed to compile
+id: c003_a056    name: knap_heuristics      status: failed to compile
+id: c003_a057    name: knap_heuristics      status: active with 0 merge points
+id: c003_a058    name: knap_heuristics_adv  status: active with 0 merge points
+id: c003_a059    name: kp_sonic             status: active with 0 merge points
+id: c003_a060    name: knap_one             status: merged @ round 50
+id: c003_a061    name: quadkp_heuristics    status: active with 0 merge points
+id: c003_a062    name: kp_heuristics        status: active with 0 merge points
+id: c003_a063    name: kp_annealing         status: active with 0 merge points
+id: c003_a064    name: quadkp_maximize      status: merged @ round 52
+id: c003_a065    name: relative_quad_fast   status: merged @ round 53
+id: c003_a066    name: relative_quad_mid    status: active with 0 merge points
+id: c003_a067    name: relative_quad_high   status: active with 0 merge points
+id: c003_a068    name: quadkp_improved_opt  status: active with 0 merge points
+id: c003_a069    name: new_relative_ultra   status: merged @ round 55
+id: c003_a070    name: new_relative_fast    status: active with 0 merge points
+id: c003_a071    name: new_relative_mid     status: active with 0 merge points
+id: c003_a072    name: new_relative_high    status: active with 0 merge points
+id: c003_a073    name: new_relative_optima  status: active with 0 merge points
+id: c003_a074    name: relative_opt_ultra   status: active with 0 merge points
+id: c003_a075    name: relative_opt_fast    status: merged @ round 57
+id: c003_a076    name: relative_opt_mid     status: merged @ round 59
+id: c003_a077    name: relative_opt_high    status: active with 0 merge points
+id: c003_a078    name: relative_opt_optima  status: merged @ round 58
+id: c003_a079    name: justatestonmyendher  status: active with 0 merge points
+id: c003_a080    name: relative_sub_fast    status: active with 0 merge points
+id: c003_a081    name: relative_sub_high    status: active with 0 merge points
+id: c003_a082    name: relative_sub_mid     status: active with 0 merge points
+id: c003_a083    name: relative_sub_optima  status: active with 0 merge points
+id: c003_a084    name: relative_sub_ultra   status: active with 0 merge points
+id: c003_a085    name: relative_raw_fast    status: active with 0 merge points
+id: c003_a086    name: relative_raw_high    status: active with 0 merge points
+id: c003_a087    name: relative_raw_mid     status: active with 0 merge points
+id: c003_a088    name: relative_raw_optima  status: active with 0 merge points
+id: c003_a089    name: relative_raw_ultra   status: merged @ round 65
+id: c003_a090    name: new_quadkp_improved  status: active with 0 merge points
+id: c003_a091    name: better_knapsack      status: active with 0 merge points
+id: c003_a092    name: even_better_knapsack status: active with 0 merge points
+id: c003_a093    name: knapsack_redone      status: merged @ round 75
+id: c003_a094    name: native_knapsack      status: merged @ round 79
+id: c003_a095    name: native_knapsack_fast status: active with 0 merge points
+id: c003_a096    name: resonance_knapsack   status: active with 0 merge points
+id: c003_a097    name: fast_and_fun         status: merged @ round 84
+id: c003_a098    name: knapsplatt           status: merged @ round 86
+id: c003_a099    name: super_knap           status: active with 0 merge points
+id: c003_a100    name: knap_supreme         status: merged @ round 96
+id: c003_a101    name: knapsack_sigma       status: active with 0 merge points
+id: c003_a102    name: knapsplat_hyper_s    status: merged @ round 94
+id: c003_a103    name: fast_and_fun_v2      status: active with 0 merge points
+id: c003_a104    name: fig_roll             status: active with 0 merge points
+id: c003_a105    name: fast_and_furious     status: merged @ round 97
+id: c003_a106    name: catknap              status: active with 0 merge points
+id: c003_a107    name: near_knap            status: merged @ round 102
+id: c003_a108    name: quad_improved_v1     status: failed to compile
+id: c003_a109    name: npppy                status: active with 0 merge points
+id: c003_a110    name: near_knap_improve    status: active with 0 merge points
+id: c003_a111    name: near_knap_improve_v1 status: merged @ round 109
+id: c003_a112    name: near_knap_v2         status: active with 0 merge points
+id: c003_a113    name: titan_knap           status: active with 0 merge points
+id: c003_a114    name: near_knap_v3         status: merged @ round 111
+id: c003_a115    name: knap_quality_opt     status: merged @ round 110
+id: c003_a116    name: swift_knap           status: active with 0 merge points
+id: c003_a117    name: swift_knap_dense     status: active with 0 merge points
+id: c003_a118    name: swift_knap_sparse    status: active with 0 merge points
+id: c003_a119    name: knap_quality_opt_v2  status: active with 0 merge points
+id: c003_a120    name: near_knap_v4         status: merged @ round 113
+id: c003_a121    name: knap_quality_opt_v3  status: active with 0 merge points
+id: c003_a122    name: sd_qkp_01            status: active with 0 merge points
+id: c003_a123    name: near_knap_v5         status: active with 0 merge points
+id: c003_a124    name: knap_quality_opt_v4  status: active with 7 merge points
+id: c003_a125    name: knap_quality_opt_v5  status: active @ round 115
+id: c003_a126    name: knap_quality_opt_v6  status: active @ round 116
+id: c003_a127    name: near_knap_v6         status: active @ round 116
+id: c003_a128    name: knap_quality_opt_v7  status: pushed @ round 115
