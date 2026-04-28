@@ -1,3 +1,4 @@
+pub mod sat_cdcl_v1;
 pub mod schnoing;
 pub use schnoing as c001_a001;
 

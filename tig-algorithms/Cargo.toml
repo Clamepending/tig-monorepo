@@ -22,6 +22,7 @@ serde_json = { version = "1.0.113" }
 tig-challenges = { path = "../tig-challenges", features = [
     "hide_verification",
 ] }
+splr = "0.17"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
