@@ -56,10 +56,14 @@ pub fn solve_challenge(
             tabu_size: None,
         },
     };
+    // Defaults: cap at 1B flips → ~500–1500s wallclock per nonce on n=5000.
+    // probSAT's LLVM-IR-instrumented fuel decrement is sparser than sat_vanguard's,
+    // so without an explicit flip cap the algorithm will run far longer than sat_vanguard
+    // and never hit the 5e12 fuel ceiling. Cap = budget control.
     let c_b = hp.c_b.unwrap_or(2.06);
     let eps = hp.eps.unwrap_or(1.0);
     let luby_base = hp.luby_base.unwrap_or(4096);
-    let max_total_flips = hp.max_total_flips.unwrap_or(10_000_000_000);
+    let max_total_flips = hp.max_total_flips.unwrap_or(1_000_000_000);
     let wp = hp.wp_random_walk.unwrap_or(0.05);
     let tabu_size = hp.tabu_size.unwrap_or(8);
 
