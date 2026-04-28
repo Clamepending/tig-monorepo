@@ -75,10 +75,15 @@ pub fn solve_challenge(
             clause_weight_bump_period: None,
         },
     };
+    // Defaults tuned for n_vars in [5000, 100000] at the SAT phase transition.
+    // luby_base at 4096 gives restart budgets 4096, 4096, 8192, 4096, 4096,
+    // 8192, 16384, 4096, ... which means ~8k flips before first restart and
+    // longer thereafter. max_total_flips intentionally large — let
+    // tig-runtime's fuel limit be the actual ceiling, not this counter.
     let c_b = hp.c_b.unwrap_or(2.06);
     let eps = hp.eps.unwrap_or(1.0);
-    let luby_base = hp.luby_base.unwrap_or(256);
-    let max_total_flips = hp.max_total_flips.unwrap_or(50_000_000);
+    let luby_base = hp.luby_base.unwrap_or(4096);
+    let max_total_flips = hp.max_total_flips.unwrap_or(10_000_000_000);
     let cw_bump_period = hp.clause_weight_bump_period.unwrap_or(1_000_000);
 
     // Filter trivial clauses (containing both x and -x); they're auto-satisfied.
