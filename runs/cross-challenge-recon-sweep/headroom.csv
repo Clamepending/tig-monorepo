@@ -1,0 +1,14 @@
+cid,challenge,incumbent,track,quality_mean,quality_std,n_valid,min_active_quality,headroom_x,compute
+c001,satisfiability,sat_vanguard,"n_vars=5000,ratio=4267",500000.0,707106.7811865475,2,1,500000.0,CPU
+c002,vehicle_routing,fast_lane_v4,n_nodes=600,nan,0.0,0,125000,nan,CPU
+c003,knapsack,near_knap_v4,"n_items=1000,budget=25",50156.4,12462.054878710815,5,15000,3.34376,CPU
+c003,knapsack,near_knap_v4,"n_items=1000,budget=10",252374.8,57209.757866993285,5,100000,2.523748,CPU
+c004,vector_search,autovector_v12,n_queries=7000,71617.5,560.876991861852,4,68500,1.0455109489051095,GPU
+c005,hypergraph,sigma_freud_v6,n_h_edges=10000,248945.0,2728.951935572825,4,120000,2.0745416666666667,GPU
+c006,neuralnet_optimizer,neural_advanced_v4,n_hidden=4,742158.2,43001.878042708784,5,400000,1.8553955,GPU
+c007,job_scheduling,adaptive_js_v4,"n=50,s=fjsp_medium",18588.0,0.0,1,10000,1.8588,CPU
+c008,energy_arbitrage,mpc_v1 (ours),s=baseline,1119666.8,725285.4007231912,5,1,1119666.8,CPU
+c008,energy_arbitrage,mpc_v1 (ours),s=capstone,8589248.0,1397125.271214253,5,1,8589248.0,CPU
+c008,energy_arbitrage,mpc_v1 (ours),s=congested,3105269.4,1165814.8197541065,5,1,3105269.4,CPU
+c008,energy_arbitrage,mpc_v1 (ours),s=dense,7787205.0,2377671.173647441,5,1,7787205.0,CPU
+c008,energy_arbitrage,mpc_v1 (ours),s=multiday,4515642.2,3246694.609405495,5,1,4515642.2,CPU
